@@ -1,0 +1,7 @@
+{
+    "project_slug": "my_service",
+    "project_title": "Service Title",
+    "dashboard_position": "4x0",
+    "project_short_description": "Microservice for...",
+    "version": "0.1.1"
+}

@@ -1,0 +1,15 @@
+# set name of your service
+name: {{ cookiecutter.project_slug }}
+{% raw %}
+# default paramenters
+env: {{ ENV }}
+listen: "{{ HOST|default('0.0.0.0')}}:{{PORT|default(8080) }}"
+redis_dsn: "{{ REDIS_DSN|default('redis://redis:6379') }}"
+ch_dsn: "{{CHP_DSN|default('http://default:default@host:9090') }}"
+
+# this place for own params
+# my_key: {{MY_KEY_ENV}}
+# endpount: https://api.endpoint.someservice.com/callme
+
+{% endraw %}
+
