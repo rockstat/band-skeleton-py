@@ -27,26 +27,29 @@ Answer for questions. After you can find service files at directory with project
 Example
 ```bash
 ~/project ❯❯❯ pip install -U cookiecutter
+
 Collecting cookiecutter
-  Downloading https://files.pythonhosted.org/packages/16/99/1ca3a75978270288354f419e9166666801cf7e7d8df984de44a7d5d8b8d0/cookiecutter-1.6.0-py2.py3-none-any.whl (50kB)
     100% |████████████████████████████████| 51kB 3.8MB/s
-Installing collected packages: whichcraft, binaryornot, poyo, jinja2-time, cookiecutter
-Successfully installed binaryornot-0.4.4 cookiecutter-1.6.0 jinja2-time-0.2.0 poyo-0.4.2 whichcraft-0.5.2
+
 ~/project ❯❯❯ cd my_images
+
 ~/p/my_images ❯❯❯ cookiecutter git+https://github.com/rockstat/band-skeleton-py
+
 project_slug [some_service]: new_service
 project_title [Some service]: New service
 project_short_description [Band platform microservice for]:
 version [0.1.1]:
+
 ~/p/my_images ❯❯❯ cd new_service
+
 ~/p/m/new_service ❯❯❯ make start-dev
+
 2018-10-26 15:34.48 [info     ] final configuration            [band] settings={'name': 'new_service', 'env': 'development', 'listen': '0.0.0.0:8080', 'redis_dsn': 'redis://redis:6379', 'ch_dsn': 'http://default:default@host:9090/stats', '_pid': 528, '_cwd': '/home/theia/project/my_images/new_service'}
 2018-10-26 15:34.49 [info     ] Attaching scheduler            [band.bootstrap]
 2018-10-26 15:34.49 [info     ] Attaching redis RPC            [band.bootstrap]
 2018-10-26 15:34.49 [info     ] Registered worker promote      [band.registry]
 ...
 ```
-
 
 ## License
 
