@@ -29,7 +29,7 @@ Example
 ~/project ❯❯❯ pip install -U cookiecutter
 
 Collecting cookiecutter
-    100% |████████████████████████████████| 51kB 3.8MB/s
+    100% |████████████████████████████████|
 
 ~/project ❯❯❯ cd my_images
 
