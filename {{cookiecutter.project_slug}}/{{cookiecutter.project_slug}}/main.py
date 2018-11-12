@@ -7,7 +7,7 @@ from prodict import Prodict as pdict
 from band import expose, cleanup, worker, settings, logger, response
 
 
-state=pdict()
+state = pdict()
 
 
 @expose.handler()
