@@ -1,6 +1,8 @@
-# Band service skeleton
-# (c) Dmitry Rodin 2018
-# ---------------------
+"""
+Band service skeleton
+(c) Dmitry Rodin 2018
+---------------------
+"""
 import asyncio
 from itertools import count
 from prodict import Prodict as pdict

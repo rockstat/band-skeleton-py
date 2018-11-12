@@ -1,8 +1,8 @@
-# Band service skeleton
-# (c) Dmitry Rodin 2018
-# ---------------------
-# this file is a reqular python module requirement, executes on module execution
-# обязательный для python файл модуля. вызывается при запуске модуля
+"""
+Band service skeleton
+(c) Dmitry Rodin 2018
+---------------------
+"""
 from band import settings, start_server
 
 def main():

@@ -1,7 +1,6 @@
-# Band service skeleton
-# (c) Dmitry Rodin 2018
-# ---------------------
-# this file is a reqular python module requirement
-# обязательный для python файл модуля.
-
+"""
+Band service skeleton
+(c) Dmitry Rodin 2018
+---------------------
+"""
 from . import main
