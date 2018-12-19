@@ -2,3 +2,4 @@
 *.pyc
 *.gignore
 .env*
+custom.yml
