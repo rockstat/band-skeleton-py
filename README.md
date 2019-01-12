@@ -18,7 +18,7 @@ cd my_images
 
 Run generator
 
-```bash
+```shell
 cookiecutter git+https://github.com/rockstat/band-skeleton-py
 ```
 
