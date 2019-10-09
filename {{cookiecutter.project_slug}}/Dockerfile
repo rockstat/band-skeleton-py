@@ -9,6 +9,7 @@ LABEL band.service.def_position="{{ cookiecutter.dashboard_position }}"
 
 ENV HOST=0.0.0.0
 ENV PORT=8080
+ENV ENV=production
 COPY requirements.txt ./
 RUN pip install --no-cache-dir -r requirements.txt
 
